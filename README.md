@@ -17,7 +17,10 @@
 ```javascript
 {
 type: 'COUNTRY_CREATE',
-payload:{id:0,name:'ch'}
+payload: {
+  id:0,
+  name:'ch'
+  }
 }
 ```
 
@@ -26,7 +29,10 @@ payload:{id:0,name:'ch'}
 ```javascript
 {
 type: 'COUNTRY_UPDATE',
-payload:{id:0,name:'us'}
+payload: {
+  id:0,
+  name:'us'
+  }
 }
 ```
 
@@ -46,7 +52,11 @@ payload:{id:0}
 ```javascript
 {
 type: 'CSTATE_CREATE',
-payload:{countryId:0,id:0,name:'fribourg'}
+payload: {
+  countryId:0,
+  id:0,
+  name:'fribourg'
+  }
 }
 ```
 
@@ -55,7 +65,10 @@ payload:{countryId:0,id:0,name:'fribourg'}
 ```javascript
 {
 type: 'CSTATE_UPDATE',
-payload:{countryId:0, id:0, name:'bern'}
+payload: {
+  countryId:0,
+  id:0, name:'bern'
+  }
 }
 ```
 
@@ -64,7 +77,10 @@ payload:{countryId:0, id:0, name:'bern'}
 ```javascript
 {
 type: 'CSTATE_DELETE',
-payload:{countryId:0, id:0}
+payload: {
+  countryId:0,
+  id:0
+  }
 }
 ```
 
